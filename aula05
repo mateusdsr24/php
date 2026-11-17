@@ -1,0 +1,31 @@
+<?php
+
+$a = 2;
+$b = 4;
+
+echo "2 + 4 = " . $a + $b . "<br>";
+echo "2 - 4 = " . $a - $b . "<br>";
+echo "2 x 4 = " . $a * $b . "<br>";
+echo "2 : 4 = " . $a / $b . "<br>";
+echo "<br>";
+
+$num = 7;
+$ndois = 6;
+$ntres = 6.5;
+
+$soma = $num + $ndois + $ntres;
+echo "nota um: " . $num . "<br>";
+echo "nota dois: " . $ndois . "<br>";
+echo "nota tres: " . $ntres . "<br>";
+echo "soma das notas: " . $soma . "<br>";
+echo "media das notas: " . $soma / 3 . "<br>";
+
+$bool = false;
+
+if($soma / 3 >= 7){
+    $bool = true;
+    echo "media maior ou igual a sete, bool: " . $bool . "<br>";
+}elseif($soma / 3 < 7){
+    echo "media menor que sete, bool: " . $bool . "<br>";
+}
+?>
